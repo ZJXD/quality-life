@@ -95,5 +95,63 @@
     height: 352px;
     background-color: rgba(255, 255, 255, 1);
     margin-top: 30px;
+
+    .title-box {
+      position: relative;
+      height: 94px;
+      color: rgba(42, 131, 78, 1);
+
+      .title {
+        height: 94px;
+        width: 228px;
+        line-height: 94px;
+        position: absolute;
+        left: 12px;
+        top: 0;
+        font-size: 32px;
+        text-align: left;
+      }
+
+      .more {
+        height: 94px;
+        width: 228px;
+        line-height: 94px;
+        position: absolute;
+        right: 12px;
+        top: 0;
+        font-size: 24px;
+        text-align: right;
+      }
+    }
+
+    .mouth-list {
+      height: 258px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .mouth-item {
+        box-sizing: border-box;
+        width: 164px;
+        height: 176px;
+        color: rgba(80, 80, 80, 1);
+        border-radius: 18px;
+        font-size: 28px;
+        border: rgba(229, 229, 229, 1) solid 1px;
+        text-align: center;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .img {
+          width: 124px;
+          height: 108px;
+          border-radius: 18px;
+        }
+      }
+    }
   }
 }

@@ -30,6 +30,24 @@ export default class Index extends Component {
         grade: 1,
         ticket: 986
       }
+    ],
+    mouthList: [
+      {
+        img: "../../assets/images/home/mouth-1.png",
+        name: "购物中心"
+      },
+      {
+        img: "../../assets/images/home/mouth-2.png",
+        name: "家政公司"
+      },
+      {
+        img: "../../assets/images/home/mouth-3.png",
+        name: "课外培训"
+      },
+      {
+        img: "../../assets/images/home/mouth-4.png",
+        name: "旅行社"
+      }
     ]
   };
 
@@ -94,7 +112,20 @@ export default class Index extends Component {
           <Button className="mor-btn">查看更多</Button>
         </View>
         {/* 口碑榜单 */}
-        <View className="mouth-box">口碑榜单</View>
+        <View className="mouth-box">
+          <View className="title-box">
+            <View className="title">口碑榜单</View>
+            <View className="more">更多</View>
+          </View>
+          <View className="mouth-list">
+            {this.state.mouthList.map((e, index) => (
+              <View className="mouth-item" key={"key1" + index}>
+                <Image className="img" src={e.img}></Image>
+                <View className="name">{e.name}</View>
+              </View>
+            ))}
+          </View>
+        </View>
       </View>
     );
   }

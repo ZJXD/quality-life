@@ -14,13 +14,13 @@ export default class My extends Component {
   componentDidHide() {}
 
   config = {
-    navigationBarTitleText: "我的"
+    navigationBarTitleText: "会员中心"
   };
 
   render() {
     return (
       <View className="my">
-        <Text>我的</Text>
+        <Text>会员中心</Text>
       </View>
     );
   }
