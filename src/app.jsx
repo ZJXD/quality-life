@@ -1,3 +1,5 @@
+// 全局引入 taro-ui 样式
+import "taro-ui/dist/style/index.scss";
 import Taro, { Component } from "@tarojs/taro";
 import Index from "./pages/index";
 
@@ -20,11 +22,11 @@ class App extends Component {
 
   config = {
     pages: [
+      "pages/my/my",
       "pages/index/index",
       "pages/file/file",
       "pages/magazine/magazine",
-      "pages/complaint/complaint",
-      "pages/my/my"
+      "pages/complaint/complaint"
     ],
     window: {
       backgroundTextStyle: "light",
