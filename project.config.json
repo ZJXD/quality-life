@@ -2,7 +2,7 @@
 	"miniprogramRoot": "dist/",
 	"projectname": "quality-life",
 	"description": "品质生活",
-	"appid": "touristappid",
+	"appid": "wxf3fe58e5a36e648e",
 	"setting": {
 		"urlCheck": true,
 		"es6": false,

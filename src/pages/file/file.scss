@@ -1,0 +1,50 @@
+.file {
+  .search-btn {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 100px;
+
+    Button {
+      width: 336px;
+      height: 82px;
+      line-height: 82px;
+      color: rgba(42, 131, 78, 1);
+      background-color: #fff;
+      border-radius: 12px;
+      font-size: 28px;
+      text-align: center;
+      border: rgba(42, 131, 78, 1) solid 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &.active {
+        color: #fff;
+        background-color: rgba(42, 131, 78, 1);
+      }
+
+      Image {
+        width: 48px;
+        height: 48px;
+        margin-right: 14px;
+      }
+    }
+  }
+
+  .file-form {
+    Button {
+      width: 380px;
+      height: 72px;
+      margin-top: 80px;
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(42, 131, 78, 1);
+      border-radius: 32px;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    &::after {
+      border: none;
+    }
+  }
+}

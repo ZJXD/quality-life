@@ -22,11 +22,11 @@ class App extends Component {
 
   config = {
     pages: [
-      "pages/my/my",
-      "pages/index/index",
-      "pages/file/file",
       "pages/magazine/magazine",
-      "pages/complaint/complaint"
+      "pages/file/file",
+      "pages/index/index",
+      "pages/complaint/complaint",
+      "pages/my/my"
     ],
     window: {
       backgroundTextStyle: "light",
